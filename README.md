@@ -1,6 +1,12 @@
 # Pharo-FIT
-Ideas, concepts to investigate for use of Pharo on FIT VUTBR
+Obsah: Ideje, koncepty k investigaci, aby slo Pharo pouzit pro fakultni ucely a ozivit a zpopularizovat vnimani Smalltalku/Phara jakozto zastupce dynamickeho reflektivniho jazyka u studentu. Stranka zminuje radu temat, kteryma se lze zabyvat do budoucna (je potreba urcit prioritu).
 _Zatim to pisu cesky, je mozne to prepsat radeji do anglictiny (pripadne udealat en verzi)_
+
+# Vize a cile
+todo
+
+
+# Reflektivita
 Metalinks (modifying AST and program runtime - behavioral reflection):
 Slideshare: https://www.slideshare.net/MarcusDenker/lecture-metalinks
 PDF: http://marcusdenker.de/talks/18LectureMetaLinks/MetaLinks.pdf
@@ -17,37 +23,45 @@ https://medium.com/concerning-pharo/watch-your-instance-variables-bce05250768e
 Typed slots :)
 https://medium.com/@juliendelplanque/typed-slots-for-pharo-98ba5d5aafbe
 
+# Pouziti / integrace s ostatnimi PL
 Multi-language development using shared VM (to avoid FFI):
 https://arxiv.org/ftp/arxiv/papers/1803/1803.10200.pdf
+PyBridge pres Pharo
 
+# Vyuziti v modelovani a simulaci
 Open ponk modelling paper:
 http://esug.org/data/ESUG2016/IWST/Papers/IWST_2016_paper_25.pdf
 https://openponk.org/#contact
 
+# Vizualizace dat
 Visualizing data:
 http://agilevisualization.com/
 
+# Integrace s version control (zejmena GIT) a moznosti pro CI/CD 
 Topics to include
 Git an CI-CD, project baselines
 
-
-
+# Pouziti Phara ve virtualizaci Docker
 Docker and swarm of images
 https://thepharo.dev/2021/02/24/running-pharo-9-in-docker/
 
+# Soubezne zpracovani uloh
 Taskit - parallelism: https://github.com/pharo-contributions/taskit
 http://books.pharo.org/booklet-ConcurrentProgramming/pdf/ConcurrentProgramming.pdf
 https://hal.inria.fr/hal-01353884/document
 
+# Web a moznosti Phara s ruznymi web frameworky
 Web examples
 - Bootstap, Semantic UI, willow (BaSt)
 - CodeParadise
 - PharoJS:
 - https://www.youtube.com/watch?v=2d2otdj66dw
 
+# Nativni UI aplikace
 UI in GTK
 GTK a Roassal dohromady
 
+# Pharo v IoT a moznosti pro senzory v zarizenich
 Pharo IoT
 - 
 Awesome Pharo
@@ -55,7 +69,7 @@ http://books.pharo.org/
 https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/
 
 
-
+# Mozna anotace kurzu 
 Abilities:
 Ability to quickly prototype idea and fix potential program issues by using live immersive environment.
 
