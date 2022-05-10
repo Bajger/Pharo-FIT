@@ -3,16 +3,23 @@ Obsah: Ideje, koncepty k investigaci, aby slo Pharo pouzit pro fakultni ucely a 
 _Zatim to pisu cesky, je mozne to prepsat radeji do anglictiny (pripadne udealat en verzi)_
 
 # Vize a cile
-todo
+- nakopnout studenty v zajmu o dyn. jazyky (konkretne Pharo) a ukazat, ze to ma moderni vyuziti v SW prumyslu a prakticke vyuziti pro ne do budoucna
+- identifikovat zajimave domeny, ktere fakulta nebo ustav resi a kde by Pharo mohlo byt vhodny nastroj
+- dobrovolna druzba s ostatnima univerzitama, kde se Pharo vyuziva a identifikovat potencialni spolecne projekty, na kterych by studenti/skola mohla participovat 
+
+# Par prepodkladu k dalsimu rozvoji
+1) Uvedomuju si, ze pocatecni nadseni muze brzy vyprchat a cele to muze vyjit s pouzitim Smaltalku (Phara) na fakulte naprazdno. Je tezke dodelat veci do konce (nez s nima zacinat). Proto je smysluplnejsi omezit pocet temat, kterym se venovat (nebo je prioritizovat ve fronte) a ty postupne rozvijet s rozumnymi ocekavanimi. 
+2) Pravdepodobne je dobre s vami udrzovat pravidelny kontakt, rozpravu o aktivitach ve Snalltalku, reseni problemu se kterymi si lze vzajemne pomoci.
+3) S celou radou veci dokazu byt napomocen. Artefakty (vcetne kodu) bych zachytil v tomto repositari (ktery lze zprivatizovat, aby nebyl verejny) a ten muze slouzit jako odrazovy mustek pro zadani dipl. praci (nebo i jinych projektu).
 
 # S cim dokazu pomoci / realne zkusenosti 
 - Mam odskouseny setup CI/CD (beh testu na ruznych platformach a verzich Phara) a osvojeno pouziti gitu a Githubu za pomoci Phara (Iceberg nastroje)  
-- Definice tzv. projektovych baseline a reseni zavislosti mezi balicky  
+- Definice tzv. projektovych baseline a reseni zavislosti mezi balicky -> toto je nutne, aby se projekt nahral vcetne vsech zavislosti v jinych repositarich
 - Implementace a zkusenosti command line interface za pouziti CLAP knihovny  
 - Tiny Blog web applikaci, ktera byla soucasti mooc kurzu (viz zdroje), za pouziti Seaside, Bootstrap, Mongo db, Magritte meta-modelu pro validaci formularovych dat  
 - Implementoval jsem a vyzkousel Pharo track cviceni (reseni ruznych jednoduchych problemu k osvojeni jazyka, vcetne mini Forth interpreta): https://exercism.org/tracks/pharo-smalltalk  
 - Zkusenosti s implementaci nekterych programtatorskych problemu za pomoci Phara, tyto cviceni jsou jiz vice hardcore: https://adventofcode.com/  
-
+- Pouzivani HTTP klienta (GET/POST requesty) ze Zinc knihovny (napr. pri dotazovani na Github.com)
 
 # Reflektivita
 Metalinky, naprosto odvazova vec -> modifikace AST a program runtimu, ktere se daji dynamick nainstalovat (behavioralni reflexe):
@@ -32,10 +39,10 @@ Typed slots - to je ta vtipna vec, ze Pharo lze v podstate udelat jako typovany 
 https://medium.com/@juliendelplanque/typed-slots-for-pharo-98ba5d5aafbe
 
 # Pouziti / integrace s ostatnimi PL
-Multi-language development using shared VM (vyhnout se tak FFI), to ma na starosti 
+Multi-language development za pouziti "sdilene" VM (vyhnout se tak FFI), to ma na starosti 
 SW Arch. Group Hasso Plattner Institute at the University of Potsdam:  
 https://arxiv.org/ftp/arxiv/papers/1803/1803.10200.pdf
-PyBridge pres Pharo  
+PyBridge pres Pharo - TODO 
 
 # Vyuziti v modelovani a simulaci
 Open ponk modelling paper:
