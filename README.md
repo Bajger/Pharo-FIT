@@ -98,16 +98,18 @@ https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/
 
 
 # Mozna anotace kurzu 
+Tohle je potreba ucesat a prepsat a dat tomu trochu rad. Jen co me v podstate napadlo behem par minut.   
 Abilities:
 Ability to quickly prototype idea and fix potential program issues by using live immersive environment.
 
-Goals:
+Goals of course:
 Learn about concepts of pure object oriented (message oriented) and fully reflective dynamic languages.
 Introduce a history of Smallltalk and impact to SW industry: terms like IDE, unit tests and TDD (test driven development), XP, anonymous functions (lamdas ~ lexical closures).
 Learn about ability to modify a program on fly during runtime. 
 Introduce pure object oriented system Pharo - a modern implementation of reflective and pure OO language based on Smalltalk80. 
 Learn why image based approach is again popular (ie. Docker technology), what is benefit of shared object memory: joining source code and program runtime.
 
+Benefits for students:
 Learn about debugger-driven development and immediate program feedback.
 Introduce meta-programming in Pharo using metalinks and modify a program by changing AST.
 Learn about examples in SW industry and research (Visualization, IoT, usage in Aerospace, web stack). 
