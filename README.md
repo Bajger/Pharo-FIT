@@ -73,13 +73,19 @@ Priklad pouziti GTK aplikace a Roassal vizualizace dohromady:
 
 
 # Pharo v IoT a moznosti pro senzory v zarizenich
-Pharo IoT - projekt zabyvajici se problematikou IoT za pouziti Phara, 
-Nutna nahrada za wiringPi knihovnu:
+Pharo IoT - projekt zabyvajici se problematikou IoT za pouziti Phara. 
+http://www.pharoiot.org/
+
+Nicmene je tam potreba udelat nejakou udrzbu za zastarale knihovny, Je zde nutna nahrada za wiringPi knihovnu, ktera je deprekovana. 
+Kontext o problemech je zde: https://github.com/robvanlopik/Pots/blob/main/Future0f-PharoThings  
+Update PharoThings (zaklad pro PharoIoT), ktery je nutno vyzkouset je zde: https://github.com/robvanlopik/Pots  
+- melo by umet PiGPIO, Picod and Firmata. Take to umi FFI-based SerialPort driver. Nutne vyzkouset.
+
+
 
 # Dulezite zdroje
 Massive online course - vec podle ktere jsem si Pharo ozivil a pochopil par veci navic, velmi pekne udelano a jsou tam prakticke cviceni:  
 https://mooc.pharo.org
-
 
 Awesome Pharo -> __jeden s referencnich a naprosto klicovych zdroju__, prehled o dostupnych knihovnach:
 https://github.com/pharo-open-documentation/awesome-pharo
@@ -87,7 +93,7 @@ https://github.com/pharo-open-documentation/awesome-pharo
 Knihy vydavne zejmena Stefanem Ducasse, nektere jsou cerstve zaktualizovane, jine by zaslouzily update:
 http://books.pharo.org/
 
-Posledni prezentace, ucastnil jsem se virtualne take (demonstrace Pharo launcher cmd-line):
+Posledni dostupna konference o Pharu a prezentace o ruznych pouzitich.  Ucastnil jsem se virtualne take (demonstrace Pharo launcher cmd-line):
 https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/
 
 
