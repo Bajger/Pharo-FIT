@@ -5,28 +5,37 @@ _Zatim to pisu cesky, je mozne to prepsat radeji do anglictiny (pripadne udealat
 # Vize a cile
 todo
 
+# S cim dokazu pomoci / realne zkusenosti 
+- Mam odskouseny setup CI/CD (beh testu na ruznych platformach a verzich Phara) a osvojeno pouziti gitu a Githubu za pomoci Phara (Iceberg nastroje)  
+- Definice tzv. projektovych baseline a reseni zavislosti mezi balicky  
+- Implementace a zkusenosti command line interface za pouziti CLAP knihovny  
+- Tiny Blog web applikaci, ktera byla soucasti mooc kurzu (viz zdroje), za pouziti Seaside, Bootstrap, Mongo db, Magritte meta-modelu pro validaci formularovych dat  
+- Implementoval jsem a vyzkousel Pharo track cviceni (reseni ruznych jednoduchych problemu k osvojeni jazyka, vcetne mini Forth interpreta): https://exercism.org/tracks/pharo-smalltalk  
+- Zkusenosti s implementaci nekterych programtatorskych problemu za pomoci Phara, tyto cviceni jsou jiz vice hardcore: https://adventofcode.com/  
+
 
 # Reflektivita
-Metalinks (modifying AST and program runtime - behavioral reflection):
-Slideshare: https://www.slideshare.net/MarcusDenker/lecture-metalinks
-PDF: http://marcusdenker.de/talks/18LectureMetaLinks/MetaLinks.pdf
-black magic metalinks:
-https://www.youtube.com/watch?v=WE_DDgBu7wA
+Metalinky, naprosto odvazova vec -> modifikace AST a program runtimu, ktere se daji dynamick nainstalovat (behavioralni reflexe):
+Slideshare: https://www.slideshare.net/MarcusDenker/lecture-metalinks  
+PDF: http://marcusdenker.de/talks/18LectureMetaLinks/MetaLinks.pdf  
+__Klicove video__: https://www.youtube.com/watch?v=WE_DDgBu7wA
 
 
-Variable slots and fluid class definition:
+Variable slots and fluid class definition - tothle je nahrada za ST80 instancni promenne, ktere se implementovaly pomoci stringu (symbolu) z duvodu uspory pameti na tehdejsich strojich. Pharo jde dal a umi inst. promenne deklarovat jako objekty. To ma velke dopady pro system:
 http://marcusdenker.de/talks/21VariablesPharo/Variables.pdf
 
-Observable slots (used in Spec UI):
+
+Observable slots (used in Spec UI). Tohle je "porozovaci slot" ktery dokaze informovat / poslat udalost pri zmene stavu. Pouzito v UI Spec frameworku v MVP/MVC: 
 https://medium.com/concerning-pharo/watch-your-instance-variables-bce05250768e
 
-Typed slots :)
+Typed slots - to je ta vtipna vec, ze Pharo lze v podstate udelat jako typovany jazyk:
 https://medium.com/@juliendelplanque/typed-slots-for-pharo-98ba5d5aafbe
 
 # Pouziti / integrace s ostatnimi PL
-Multi-language development using shared VM (to avoid FFI):
+Multi-language development using shared VM (vyhnout se tak FFI), to ma na starosti 
+SW Arch. Group Hasso Plattner Institute at the University of Potsdam:  
 https://arxiv.org/ftp/arxiv/papers/1803/1803.10200.pdf
-PyBridge pres Pharo
+PyBridge pres Pharo  
 
 # Vyuziti v modelovani a simulaci
 Open ponk modelling paper:
@@ -58,14 +67,27 @@ Web examples
 - https://www.youtube.com/watch?v=2d2otdj66dw
 
 # Nativni UI aplikace
-UI in GTK
-GTK a Roassal dohromady
+UI pomoci GTK knihovny, bezi na headless image:
+
+Priklad pouziti GTK aplikace a Roassal vizualizace dohromady:
+
 
 # Pharo v IoT a moznosti pro senzory v zarizenich
-Pharo IoT
-- 
-Awesome Pharo
+Pharo IoT - projekt zabyvajici se problematikou IoT za pouziti Phara, 
+Nutna nahrada za wiringPi knihovnu:
+
+# Dulezite zdroje
+Massive online course - vec podle ktere jsem si Pharo ozivil a pochopil par veci navic, velmi pekne udelano a jsou tam prakticke cviceni:  
+https://mooc.pharo.org
+
+
+Awesome Pharo -> __jeden s referencnich a naprosto klicovych zdroju__, prehled o dostupnych knihovnach:
+https://github.com/pharo-open-documentation/awesome-pharo
+
+Knihy vydavne zejmena Stefanem Ducasse, nektere jsou cerstve zaktualizovane, jine by zaslouzily update:
 http://books.pharo.org/
+
+Posledni prezentace, ucastnil jsem se virtualne take (demonstrace Pharo launcher cmd-line):
 https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/
 
 
