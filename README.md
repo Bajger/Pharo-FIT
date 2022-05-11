@@ -13,19 +13,48 @@ _Zatim to pisu cesky, je mozne to prepsat radeji do anglictiny (pripadne udealat
 3) S celou radou veci dokazu byt napomocen. Artefakty (vcetne kodu) bych zachytil v tomto repositari (ktery lze zprivatizovat, aby nebyl verejny) a ten muze slouzit jako odrazovy mustek pro zadani dipl. praci (nebo i jinych projektu), pripadne nove struktury, obsahu pro kurz Dynamicke jazyky.
 
 # S cim dokazu pomoci / realne zkusenosti 
-- Mam odskouseny setup CI/CD (beh testu na ruznych platformach a verzich Phara) a osvojeno pouziti gitu a Githubu za pomoci Phara (Iceberg nastroje)  
+- Mam odskouseny setup CI/CD (beh unit testu na ruznych platformach a verzich Phara, test coverage report) a osvojeno pouziti gitu a Githubu za pomoci Phara (Iceberg nastroje)  
 - Definice tzv. projektovych baseline a reseni zavislosti mezi balicky -> toto je nutne, aby se projekt nahral vcetne vsech zavislosti v jinych repositarich
 - Implementace a zkusenosti command line interface za pouziti CLAP knihovny  
 - Tiny Blog web applikaci, ktera byla soucasti mooc kurzu (viz zdroje), za pouziti Seaside, Bootstrap, Mongo db, Magritte meta-modelu pro validaci formularovych dat  
 - Implementoval jsem a vyzkousel Pharo track cviceni (reseni ruznych jednoduchych problemu k osvojeni jazyka, vcetne mini Forth interpreta): https://exercism.org/tracks/pharo-smalltalk  
 - Zkusenosti s implementaci nekterych programtatorskych problemu za pomoci Phara, tyto cviceni jsou jiz vice hardcore: https://adventofcode.com/  
 - Pouzivani HTTP klienta (GET/POST requesty) ze Zinc knihovny (napr. pri dotazovani na Github.com)
+- Serializace dat, format STON a Tonel (pro export cele tridy), NeoJSON, 
+
+# Obecna vize a smerovani Phara
+Zminuji zde par veci, co se komunita Phara snazi dosahnout, v podstate roadmap prezentace Stephana Ducasse a jeho lidi z Inria institutu. 
+
+Detaily zde: https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/2-Pharo10-Ducasse.pdf
+
+Pharo 10 (soucasny latest stable release):  
+- modularizace (minimalni image)
+- VM optimalizace a zrychleni
+- smazano 48K LOC (zmenseni image)
+
+Pharo 9 (vycuc toho nejdulezitejsiho): 
+- Kompletni redesign UI frameworku do Spec2 frameworku (jakasi obalka, ktera muze stridat UI backendy), pridani moznosti pro GTK backend ve headless modu
+- prepsani nastroju (debugger, inspector, playground) do Spec2
+- zrychleni a optimalizace na urovni VM a kompilatoru
+- VM v idle modu (nebere CPU time)
+- podpora arm64
+- atd.
+
+Shrhnuti uprav v soucasnem VM. Velmi zajimave, je to vyssi divci pro me. Zminuji tam novy tzv. "perm space" objektovou pamet pro objekty co se nemeni: https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/3-VM-Tesone_Polito.pdf
+
+Jakym zpusobem podavat do budoucna enhancementy __(treba kdyby neco potrebovala fakulta)__ do Phara: https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/7-PhEPs-Lorenzano.pdf
+
+
+# Osobnosti a jejich tvorba
+TODO
+
+
 
 # Reflektivita
 Metalinky, naprosto odvazova vec -> modifikace AST a program runtimu, ktere se daji dynamick nainstalovat (behavioralni reflexe):
 Slideshare: https://www.slideshare.net/MarcusDenker/lecture-metalinks  
 PDF: http://marcusdenker.de/talks/18LectureMetaLinks/MetaLinks.pdf  
-__Klicove video__: https://www.youtube.com/watch?v=WE_DDgBu7wA
+__Klicove video (alespon pro me)__: https://www.youtube.com/watch?v=WE_DDgBu7wA
 
 
 Variable slots and fluid class definition - tothle je nahrada za ST80 instancni promenne, ktere se implementovaly pomoci stringu (symbolu) z duvodu uspory pameti na tehdejsich strojich. Pharo jde dal a umi inst. promenne deklarovat jako objekty. To ma velke dopady pro system:
@@ -38,10 +67,14 @@ https://medium.com/concerning-pharo/watch-your-instance-variables-bce05250768e
 Typed slots - to je ta vtipna vec, ze Pharo lze v podstate udelat jako typovany jazyk:
 https://medium.com/@juliendelplanque/typed-slots-for-pharo-98ba5d5aafbe
 
-# Pouziti / integrace s ostatnimi PL
+# Pouziti / integrace s ostatnimi PL a jinymi aplikacemi
 Multi-language development za pouziti "sdilene" VM (vyhnout se tak FFI), to ma na starosti 
 SW Arch. Group Hasso Plattner Institute at the University of Potsdam:  
 https://arxiv.org/ftp/arxiv/papers/1803/1803.10200.pdf
+
+Jak udelat Pharo jako binarni aplikaci a jak integrovat s jinou existujici aplikaci, zle pouzit VM jako DLL:
+https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/10-BrandingPharo-Tesone_Polito.pdf
+
 PyBridge pres Pharo - TODO 
 
 # Vyuziti v modelovani a simulaci
@@ -67,7 +100,17 @@ http://books.pharo.org/booklet-ConcurrentProgramming/pdf/ConcurrentProgramming.p
 https://hal.inria.fr/hal-01353884/document
 
 # Web a moznosti Phara s ruznymi web frameworky
-Web examples
+Co se tyka webu, zaznamenal jsem v podsate 3 pristupy: 
+
+## Minimalni image bezici v prohlizeci (velikost cca 200kB) a interpret Squeak JS
+Zde SqueakJS oznacuje VM v podstate napsany v Javascriptu a interpretuje minimalni Pharo image, ktera slouzi s komunikaci pres web sockety s backend-image:
+https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/5-ExpressiveSystems-Stel-Alteren.pdf
+https://github.com/ErikOnBike/CodeParadise/blob/master/introduction.md
+
+
+## Seaside framework s Jquery knihovnou
+Seaside generuje veskery obsah web stranky (pres tzv. html canvas) 
+
 - Bootstap, Semantic UI, willow (BaSt)
 - CodeParadise
 - PharoJS:
@@ -88,6 +131,11 @@ Kontext o problemech je zde: https://github.com/robvanlopik/Pots/blob/main/Futur
 Update PharoThings (zaklad pro PharoIoT), ktery je nutno vyzkouset je zde: https://github.com/robvanlopik/Pots  
 - melo by umet PiGPIO, Picod and Firmata. Take to umi FFI-based SerialPort driver. Nutne vyzkouset.
 
+# Umela inteligence a Machine learning
+Toto prilis nemam prozkoumano, nicmene stav podpurnych knihoven by mel byt v dobrem stavu, komunita se snazi o komplement (napr. Polymath, Dataframe) k Python knihovnam. Rekl bych, ze je tu rada prilezitosti napsat nejaky chybejici algoritmus, bud jako bakalarskou nebo dimpl. praci:
+https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/8-PharoAI-Jordan-Zaitsev.pdf
+https://github.com/pharo-ai/wiki
+https://github.com/pharo-ai/awesome-pharo-ml
 
 
 # Dulezite zdroje
@@ -104,8 +152,11 @@ Posledni dostupna konference o Pharu a prezentace o ruznych pouzitich.  Ucastnil
 https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/
 
 
-# Mozna anotace kurzu 
-Tohle je potreba ucesat a prepsat a dat tomu trochu rad. Jen co me v podstate napadlo behem par minut.   
+# Namet pro novy obsah (anotace, napln) kurzu Dynamicke jazyky
+Tohle je potreba ucesat a prepsat a dat tomu trochu rad. Jen co me v podstate napadlo behem par minut.
+Cilem je take postavit seznam cviceni, ktere by mohly ukazat na prakticke dopady ve vyuzivani at uz pri skolnich nebo i profesionalnich projektu/produktu. 
+
+## Anotace 
 Abilities:
 Ability to quickly prototype idea and fix potential program issues by using live immersive environment.
 
@@ -121,3 +172,9 @@ Learn about debugger-driven development and immediate program feedback.
 Introduce meta-programming in Pharo using metalinks and modify a program by changing AST.
 Learn about examples in SW industry and research (Visualization, IoT, usage in Aerospace, web stack). 
 Learn how Pharo can be integrated with other systems (written in other programming languages) and how to integrate with VCS (i.e. Github) and CI/CD setup including test coverage.
+
+## Obsah cviceni
+TODO 
+
+## Teoreticky obsah - prednasky
+TODO
