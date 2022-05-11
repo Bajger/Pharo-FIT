@@ -10,7 +10,7 @@ _Zatim to pisu cesky, je mozne to prepsat radeji do anglictiny (pripadne udealat
 # Par prepodkladu k dalsimu rozvoji
 1) Uvedomuju si, ze pocatecni nadseni muze brzy vyprchat a cele to muze vyjit s pouzitim Smaltalku (Phara) na fakulte naprazdno. Je tezke dodelat veci do konce (nez s nima zacinat). Proto je smysluplnejsi omezit pocet temat, kterym se venovat (nebo je prioritizovat ve fronte) a ty postupne rozvijet s rozumnymi ocekavanimi. 
 2) Pravdepodobne je dobre s vami udrzovat pravidelny kontakt, rozpravu o aktivitach ve Snalltalku, reseni problemu se kterymi si lze vzajemne pomoci.
-3) S celou radou veci dokazu byt napomocen. Artefakty (vcetne kodu) bych zachytil v tomto repositari (ktery lze zprivatizovat, aby nebyl verejny) a ten muze slouzit jako odrazovy mustek pro zadani dipl. praci (nebo i jinych projektu).
+3) S celou radou veci dokazu byt napomocen. Artefakty (vcetne kodu) bych zachytil v tomto repositari (ktery lze zprivatizovat, aby nebyl verejny) a ten muze slouzit jako odrazovy mustek pro zadani dipl. praci (nebo i jinych projektu), pripadne nove struktury, obsahu pro kurz Dynamicke jazyky.
 
 # S cim dokazu pomoci / realne zkusenosti 
 - Mam odskouseny setup CI/CD (beh testu na ruznych platformach a verzich Phara) a osvojeno pouziti gitu a Githubu za pomoci Phara (Iceberg nastroje)  
