@@ -5,7 +5,7 @@ _Zatim to pisu cesky, je mozne to prepsat radeji do anglictiny (pripadne udealat
 # Vize a cile
 - nakopnout studenty v zajmu o dyn. jazyky (konkretne Pharo) a ukazat, ze to ma moderni vyuziti v SW prumyslu a prakticke vyuziti pro ne do budoucna
 - identifikovat zajimave domeny, ktere fakulta nebo ustav resi a kde by Pharo mohlo byt vhodny nastroj
-- dobrovolna druzba s ostatnima univerzitama, kde se Pharo vyuziva a identifikovat potencialni spolecne projekty, na kterych by studenti/skola mohla participovat 
+- dobrovolna druzba s ostatnimai univerzitami, kde se Pharo vyuziva a identifikovat potencialni spolecne projekty, na kterych by studenti/skola mohla participovat 
 
 # Par prepodkladu k dalsimu rozvoji
 1) Uvedomuju si, ze pocatecni nadseni muze brzy vyprchat a cele to muze vyjit s pouzitim Smaltalku (Phara) na fakulte naprazdno. Je tezke dodelat veci do konce (nez s nima zacinat). Proto je smysluplnejsi omezit pocet temat, kterym se venovat (nebo je prioritizovat ve fronte) a ty postupne rozvijet s rozumnymi ocekavanimi. 
