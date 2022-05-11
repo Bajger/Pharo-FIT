@@ -84,11 +84,14 @@ PyBridge pres Pharo - TODO
 # Vyuziti v modelovani a simulaci
 Open ponk modelling paper:
 http://esug.org/data/ESUG2016/IWST/Papers/IWST_2016_paper_25.pdf
-https://openponk.org/#contact
+https://openponk.org/
+Ukazka modelovaci platformy OpenPonk: https://www.youtube.com/watch?v=_gQgXdJyr-0
+Petriho site: https://github.com/OpenPonk/petrinets
 
 # Vizualizace dat
-Visualizing data:
+Visualizace pomoci Roassal knihovny, je zde spousta prikladu a vizualizace jsou nekdy uchvacujici:
 http://agilevisualization.com/
+
 
 # Integrace s version control (zejmena GIT) a moznosti pro CI/CD 
 Topics to include
@@ -136,6 +139,11 @@ Kontext o problemech je zde: https://github.com/robvanlopik/Pots/blob/main/Futur
 Update PharoThings (zaklad pro PharoIoT), ktery je nutno vyzkouset je zde: https://github.com/robvanlopik/Pots  
 - melo by umet PiGPIO, Picod and Firmata. Take to umi FFI-based SerialPort driver. Nutne vyzkouset.
 
+# Komunikace a sitovy prenos
+AMQP klient pro Pharo https://github.com/ba-st/Ansible (AMQP broker je patrne robustnejsi/pomalejsi nez Kafka)
+Zinc HTTP server a klient: https://github.com/svenvc/zinc
+tbd.
+
 # Umela inteligence a Machine learning
 Toto prilis nemam prozkoumano, nicmene stav podpurnych knihoven by mel byt v dobrem stavu, komunita se snazi o komplement (napr. Polymath, Dataframe) k Python knihovnam. Rekl bych, ze je tu rada prilezitosti napsat nejaky chybejici algoritmus, bud jako bakalarskou nebo dimpl. praci:
 https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/8-PharoAI-Jordan-Zaitsev.pdf
@@ -149,6 +157,9 @@ https://mooc.pharo.org
 
 Awesome Pharo -> __jeden s referencnich a naprosto klicovych zdroju__, prehled o dostupnych knihovnach:
 https://github.com/pharo-open-documentation/awesome-pharo
+
+Buenos Aires Smalltalk - velmi ceneny zdroj knihoven a nastroju z Jizni Ameriky 
+https://github.com/ba-st
 
 Knihy vydavne zejmena Stefanem Ducasse, nektere jsou cerstve zaktualizovane, jine by zaslouzily update:
 http://books.pharo.org/
