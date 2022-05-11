@@ -67,6 +67,10 @@ https://medium.com/concerning-pharo/watch-your-instance-variables-bce05250768e
 Typed slots - to je ta vtipna vec, ze Pharo lze v podstate udelat jako typovany jazyk:
 https://medium.com/@juliendelplanque/typed-slots-for-pharo-98ba5d5aafbe
 
+Jak vytvorit anonymni tridu pro spehovani (slide 16): http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week7/C019-W7S04-OtherReflective.pdf
+
+Anonymous visitor, zajimave zpusoby generovani/kompilovani kodu: https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/ShowUsYourProjects/1-showUsAnonymousVisitor.pdf
+
 # Pouziti / integrace s ostatnimi PL a jinymi aplikacemi
 Multi-language development za pouziti "sdilene" VM (vyhnout se tak FFI), to ma na starosti 
 SW Arch. Group Hasso Plattner Institute at the University of Potsdam:  
@@ -104,6 +108,7 @@ Co se tyka webu, zaznamenal jsem v podsate 3 pristupy:
 
 ## Minimalni image bezici v prohlizeci (velikost cca 200kB) a interpret Squeak JS
 Zde SqueakJS oznacuje VM v podstate napsany v Javascriptu a interpretuje minimalni Pharo image, ktera slouzi s komunikaci pres web sockety s backend-image:
+Video z prezentace: TODO
 https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/5-ExpressiveSystems-Stel-Alteren.pdf
 https://github.com/ErikOnBike/CodeParadise/blob/master/introduction.md
 
