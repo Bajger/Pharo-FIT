@@ -100,6 +100,10 @@ Pouziti Roassal knihovny a GTK UI backendu: (Tweet o Pavlovi Krivankovi): https:
 Slidy z jednoho z hlavnich vyvojaru: https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Workshop/2-ExtendingTheEnvironment-MamaniTorres.pdf
 Repositar: https://github.com/ObjectProfile/Roassal3
 
+# Vyvoj her a HW akcelerace pres Woden engine
+Je zde par ukazek jak delat 3d scenu (HW akcelerovanou): https://www.youtube.com/watch?v=zJAjDSg-nvU
+Repositar s ukazkama zde: https://github.com/ronsaldo/woden-core-examples
+Isometricky engine: https://github.com/psvensson/golgotterath
 
 
 # Integrace s version control (zejmena GIT) a moznosti pro CI/CD 
@@ -143,8 +147,9 @@ Priklad pouziti GTK aplikace a Roassal vizualizace dohromady:
 # Pharo v IoT a moznosti pro senzory v zarizenich
 Pharo IoT - projekt zabyvajici se problematikou IoT za pouziti Phara. 
 http://www.pharoiot.org/
+Hlavni repositare: https://github.com/pharo-iot
 
-Nicmene je tam potreba udelat nejakou udrzbu za zastarale knihovny, Je zde nutna nahrada za wiringPi knihovnu, ktera je deprekovana. 
+Web popisuje urcity postup, nicmene je tam potreba udelat nejakou udrzbu za zastarale knihovny, Je zde nutna nahrada za wiringPi knihovnu, ktera je deprekovana. 
 Kontext o problemech je zde: https://github.com/robvanlopik/Pots/blob/main/Future0f-PharoThings  
 Update PharoThings (zaklad pro PharoIoT), ktery je nutno vyzkouset je zde: https://github.com/robvanlopik/Pots  
 - melo by umet PiGPIO, Picod and Firmata. Take to umi FFI-based SerialPort driver. Nutne vyzkouset.
