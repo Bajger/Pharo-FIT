@@ -72,15 +72,18 @@ Jak vytvorit anonymni tridu pro spehovani (slide 16): http://rmod-pharo-mooc.lil
 Anonymous visitor, zajimave zpusoby generovani/kompilovani kodu: https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/ShowUsYourProjects/1-showUsAnonymousVisitor.pdf
 
 # Pouziti / integrace s ostatnimi PL a jinymi aplikacemi
-Multi-language development za pouziti "sdilene" VM (vyhnout se tak FFI), to ma na starosti 
-SW Arch. Group Hasso Plattner Institute at the University of Potsdam:  
+## Multi-language development za pouziti "sdilene" VM 
+Je mozne se vyhnout pouziti FFI, to ma na starosti SW Arch. Group Hasso Plattner Institute at the University of Potsdam:  
 https://arxiv.org/ftp/arxiv/papers/1803/1803.10200.pdf
 
 Jak udelat Pharo jako binarni aplikaci a jak integrovat s jinou existujici aplikaci, zle pouzit VM jako DLL:
 https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/10-BrandingPharo-Tesone_Polito.pdf
 
-PyBridge pres Pharo
-TODO  
+## PyBridge pres Pharo
+Integrace s Python PL  
+Repositar zde: https://github.com/ObjectProfile/PythonBridge  
+Nebo take (vice informaci): https://objectprofile.github.io/PythonBridge/  
+  
 
 __UFFI__  
 Volani pres foreign function interface. Zde doslo k vyraznemu zlepseni od core Pharo vyvojaru (threaded FFI):  
