@@ -80,6 +80,7 @@ Jak udelat Pharo jako binarni aplikaci a jak integrovat s jinou existujici aplik
 https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/10-BrandingPharo-Tesone_Polito.pdf
 
 PyBridge pres Pharo - TODO 
+UFFI - poznamky + kniha TODO
 
 # Vyuziti v modelovani a simulaci
 Open ponk modelling paper:
@@ -90,15 +91,16 @@ Petriho site: https://github.com/OpenPonk/petrinets
 
 # Vizualizace dat
 Visualizace pomoci Roassal knihovny, je zde spousta prikladu a vizualizace jsou nekdy uchvacujici a prakticke pri nejake analyze dat. Je to takova obdoba d3js, ale s tou vyhodou, ze data (model) ktery vizualizujete mate primo live v imagi a muzete menit semantiku pro zobrazeni on-the-fly:
-http://agilevisualization.com/
+http://agilevisualization.com/  
 
-Umi to i 3D: https://www.youtube.com/watch?v=CuimMwuZiGA
-Par dechberoucich ukazek (ze pry je Smalltalk dead :) ): https://youtu.be/R2rLr7Z1b8Y
-Delsi prednasky: https://youtu.be/-Pk4q5oMdLo
-teaser: https://vimeo.com/293060446
-Pouziti Roassal knihovny a GTK UI backendu: (Tweet o Pavlovi Krivankovi): https://twitter.com/estebanlm/status/1129367357451886592
-Slidy z jednoho z hlavnich vyvojaru: https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Workshop/2-ExtendingTheEnvironment-MamaniTorres.pdf
-Repositar: https://github.com/ObjectProfile/Roassal3
+Umi to i 3D: https://www.youtube.com/watch?v=CuimMwuZiGA  
+Par dechberoucich ukazek (ze pry je Smalltalk dead :) ): https://youtu.be/R2rLr7Z1b8Y  
+Delsi prednasky: https://youtu.be/-Pk4q5oMdLo  
+teaser: https://vimeo.com/293060446  
+
+Pouziti Roassal knihovny a GTK UI backendu: (Tweet o Pavlovi Krivankovi): https://twitter.com/estebanlm/status/1129367357451886592  
+Slidy z jednoho z hlavnich vyvojaru: https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Workshop/2-ExtendingTheEnvironment-MamaniTorres.pdf  
+Repositar: https://github.com/ObjectProfile/Roassal3  
 
 # Vyvoj her a HW akcelerace pres Woden engine
 Je zde par ukazek jak delat 3d scenu (HW akcelerovanou): https://www.youtube.com/watch?v=zJAjDSg-nvU  
