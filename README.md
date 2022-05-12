@@ -135,6 +135,7 @@ Seaside generuje veskery obsah web stranky (pres tzv. html canvas)
 
 # Nativni UI aplikace
 UI pomoci GTK knihovny, bezi na headless image:
+Velmi konkretni ukazka: https://rmod-files.lille.inria.fr/Videos/fosdem/gtk-spec-live.mp4
 
 Priklad pouziti GTK aplikace a Roassal vizualizace dohromady:
 
