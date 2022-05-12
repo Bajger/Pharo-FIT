@@ -101,14 +101,18 @@ Slidy z jednoho z hlavnich vyvojaru: https://rmod-files.lille.inria.fr/Team/Phar
 Repositar: https://github.com/ObjectProfile/Roassal3
 
 # Vyvoj her a HW akcelerace pres Woden engine
-Je zde par ukazek jak delat 3d scenu (HW akcelerovanou): https://www.youtube.com/watch?v=zJAjDSg-nvU
-Repositar s ukazkama zde: https://github.com/ronsaldo/woden-core-examples
-Isometricky engine: https://github.com/psvensson/golgotterath
+Je zde par ukazek jak delat 3d scenu (HW akcelerovanou): https://www.youtube.com/watch?v=zJAjDSg-nvU  
+Repositar s ukazkama zde: https://github.com/ronsaldo/woden-core-examples  
+Isometricky engine: https://github.com/psvensson/golgotterath  
+Ukazky 2d her od tymu z Jizni Ameriky (Ba-St): https://github.com/apiorno/Winter-Examples  
 
 
 # Integrace s version control (zejmena GIT) a moznosti pro CI/CD 
 Topics to include
 Git an CI-CD, project baselines
+
+# IDE a vyvojove prostredi
+Krome standartniho Phara image se da vyvijet pomoci tzv. Glamorous toolkitu vyvijeno firmou Feenk. Jejich cilem je se spopularizovat a pouzit i v jinych jazicich (filozoficky jakasi nahrada/pokracovani za Emacs - viz [https://www.reddit.com/r/emacs/comments/lbwff7/glamorous_toolkit_a_smalltalk_take_on_some_ideas/)
 
 # Pouziti Phara ve virtualizaci Docker
 Docker and swarm of images
@@ -134,12 +138,20 @@ Seaside generuje veskery obsah web stranky (pres tzv. html canvas)
 
 - Bootstap, Semantic UI, willow (BaSt)
 - CodeParadise
-- PharoJS:
-- https://www.youtube.com/watch?v=2d2otdj66dw
+- material design lite: 
+
+## PharoJS  - transpilator z Phara do JS
+Kladou si za cil vubec JS nepouzivat, pouze do nej exportovat jak pro klientskou stranu tak pro server: prednaska zde: https://youtu.be/2d2otdj66dw  
+Slidy zde: https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day2/7-PharoJSClientServer-Bouraqadi.pdf
+Hlavni stranka: https://pharojs.org
 
 # Nativni UI aplikace
 UI pomoci GTK knihovny, bezi na headless image:
-Velmi konkretni ukazka: https://rmod-files.lille.inria.fr/Videos/fosdem/gtk-spec-live.mp4
+Velmi konkretni ukazka: https://rmod-files.lille.inria.fr/Videos/fosdem/gtk-spec-live.mp4  
+
+APart form editor - je editor pro UI, ktery vygeneruje specifikaci - prace Pavla Krivanka, ktery to vyvyji pro nemeckou firmu:
+https://github.com/bauing-schmidt/APart  
+Slidy: https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day2/4-ApartFormEditor-Krivanek.pdf
 
 Priklad pouziti GTK aplikace a Roassal vizualizace dohromady:
 
