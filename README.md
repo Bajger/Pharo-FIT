@@ -128,18 +128,17 @@ https://hal.inria.fr/hal-01353884/document
 # Web a moznosti Phara s ruznymi web frameworky
 Co se tyka webu, zaznamenal jsem v podsate 3 pristupy: 
 
-## Minimalni image bezici v prohlizeci (velikost cca 200kB) a interpret Squeak JS
+## 1. Minimalni image bezici v prohlizeci (velikost cca 200kB) a interpret Squeak JS
 Zde SqueakJS oznacuje VM v podstate napsany v Javascriptu a interpretuje minimalni Pharo image, ktera slouzi s komunikaci pres web sockety s backend-image:
 Video z prezentace: TODO
 https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/5-ExpressiveSystems-Stel-Alteren.pdf
 https://github.com/ErikOnBike/CodeParadise/blob/master/introduction.md
 
 
-## Seaside framework s Jquery knihovnou
-Seaside generuje veskery obsah web stranky (pres tzv. html canvas) 
+## 2. Seaside framework s Jquery knihovnou
+Seaside je komponent based stateful web framework, generuje veskery obsah web stranky (pres tzv. html canvas). Generuje to HMTL+css ze smalltalku kodu. Komunikace je pres Ajax a JQuery.
 
 - Bootstap, Semantic UI, willow (BaSt)
-- CodeParadise
 - material design lite: 
 
 ## PharoJS  - transpilator z Phara do JS
