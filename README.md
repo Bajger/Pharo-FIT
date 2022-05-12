@@ -79,8 +79,13 @@ https://arxiv.org/ftp/arxiv/papers/1803/1803.10200.pdf
 Jak udelat Pharo jako binarni aplikaci a jak integrovat s jinou existujici aplikaci, zle pouzit VM jako DLL:
 https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/10-BrandingPharo-Tesone_Polito.pdf
 
-PyBridge pres Pharo - TODO 
-UFFI - poznamky + kniha TODO
+PyBridge pres Pharo
+TODO  
+
+__UFFI__  
+Volani pres foreign function interface. Zde doslo k vyraznemu zlepseni od core Pharo vyvojaru (threaded FFI):  
+- detaily zde: https://hal.inria.fr/hal-03358607/document     
+- kniha: http://books.pharo.org/booklet-uffi/  
 
 # Vyuziti v modelovani a simulaci
 Open ponk modelling paper:
