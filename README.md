@@ -243,7 +243,7 @@ __Benefits for students:__
 - Improve SW design skills by using OO narratives and real-life examples (Don't think how SW works, think how real world works).
 - Introduce meta-programming in Pharo using metalinks and modify a program by changing AST.
 - Learn about examples in SW industry and research (Visualization, IoT, usage in Aerospace, web stack). 
-- Learn how Pharo can be integrated with other systems (written in other programming languages) and how to integrate with VCS (i.e. Github) and CI/CD setup including test coverage.
+- Learn how to integrate existing SW (in Pharo) with other systems (written in other programming languages) and how to develop with VCS (i.e. Github) and CI/CD setup including test coverage.
 
 ## Obsah cviceni
 TODO 
