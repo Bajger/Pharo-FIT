@@ -203,7 +203,7 @@ Massive online course - vec podle ktere jsem si Pharo ozivil a pochopil par veci
 https://mooc.pharo.org
 
 __Awesome Pharo__  
--> __jeden s referencnich a naprosto klicovych zdroju__, prehled o dostupnych knihovnach:
+-> __jeden z referencnich a naprosto klicovych zdroju__, prehled o dostupnych knihovnach:
 https://github.com/pharo-open-documentation/awesome-pharo
 
 Buenos Aires Smalltalk - velmi ceneny zdroj knihoven a nastroju z Jizni Ameriky 
