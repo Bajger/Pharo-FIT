@@ -94,7 +94,7 @@ Volani pres foreign function interface. Zde doslo k vyraznemu zlepseni od core P
 Open ponk modelling paper:
 http://esug.org/data/ESUG2016/IWST/Papers/IWST_2016_paper_25.pdf  
 https://openponk.org/  
-Ukazka modelovaci platformy OpenPonk: https://www.youtube.com/watch?v=_gQgXdJyr-0  
+Zdarila ukazka modelovaci platformy OpenPonk: https://www.youtube.com/watch?v=_gQgXdJyr-0  
 Petriho site: https://github.com/OpenPonk/petrinets  
 
 # Vizualizace dat
