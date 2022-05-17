@@ -135,9 +135,9 @@ Docker and swarm of images - jak to pouzivaji ve 2denker.com: https://www.youtub
 Pouziti Dockeru a deployment web aplikace: https://thepharo.dev/2021/02/24/running-pharo-9-in-docker/  
 
 # Soubezne zpracovani uloh
-Taskit - parallelism: https://github.com/pharo-contributions/taskit
-http://books.pharo.org/booklet-ConcurrentProgramming/pdf/ConcurrentProgramming.pdf
-https://hal.inria.fr/hal-01353884/document
+Taskit - parallelism: https://github.com/pharo-contributions/taskit  
+http://books.pharo.org/booklet-ConcurrentProgramming/pdf/ConcurrentProgramming.pdf  
+https://hal.inria.fr/hal-01353884/document  
 
 # Web a moznosti Phara s ruznymi web frameworky
 Co se tyka webu, zaznamenal jsem v podsate 3 pristupy: 
@@ -202,7 +202,8 @@ https://github.com/pharo-ai/awesome-pharo-ml
 Massive online course - vec podle ktere jsem si Pharo ozivil a pochopil par veci navic, velmi pekne udelano a jsou tam prakticke cviceni:  
 https://mooc.pharo.org
 
-Awesome Pharo -> __jeden s referencnich a naprosto klicovych zdroju__, prehled o dostupnych knihovnach:
+__Awesome Pharo__  
+-> __jeden s referencnich a naprosto klicovych zdroju__, prehled o dostupnych knihovnach:
 https://github.com/pharo-open-documentation/awesome-pharo
 
 Buenos Aires Smalltalk - velmi ceneny zdroj knihoven a nastroju z Jizni Ameriky 
@@ -211,8 +212,14 @@ https://github.com/ba-st
 Knihy vydavne zejmena Stefanem Ducasse, nektere jsou cerstve zaktualizovane, jine by zaslouzily update:
 http://books.pharo.org/
 
-Posledni dostupna konference o Pharu a prezentace o ruznych pouzitich.  Ucastnil jsem se virtualne take (demonstrace Pharo launcher cmd-line):
-https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/
+__PharoDays__  
+Konference o Pharu a prezentace o ruznych pouzitich.  Ucastnil jsem se virtualne take (demonstrace Pharo launcher cmd-line):
+https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/  
+
+__[Discord server](https://discord.gg/QewZMZa)__
+V podstate interaktivnejsi nahrada za mailing listy, nebo spis doplnek. Je zde vyhledavani ve fulltextu, je mozne ze podobny problem jiz zde nekdo resil a lze tak dohledat konverzaci o problematice.  
+
++ tradicni mailing listy.
 
 
 # Namet pro novy obsah (anotace, napln) kurzu Dynamicke jazyky
@@ -221,21 +228,22 @@ Cilem je take postavit seznam cviceni, ktere by mohly ukazat na prakticke dopady
 
 ## Anotace 
 Abilities:
-Ability to quickly prototype idea and fix potential program issues by using live immersive environment.
+- Ability to quickly prototype idea and fix potential program issues by using live immersive environment.
 
-Goals of course:
-Learn about concepts of pure object oriented (message oriented) and fully reflective dynamic languages.
-Introduce a history of Smallltalk and impact to SW industry: terms like IDE, unit tests and TDD (test driven development), XP, anonymous functions (lamdas ~ lexical closures).
-Learn about ability to modify a program on fly during runtime. 
-Introduce pure object oriented system Pharo - a modern implementation of reflective and pure OO language based on Smalltalk80. 
-Learn why image based approach is again popular (ie. Docker technology), what is benefit of shared object memory: joining source code and program runtime.
+__Goals of course:__
+- Learn about concepts of pure object oriented (message oriented) and fully reflective dynamic languages.
+- Introduce a history of Smallltalk and impact to SW industry: terms like IDE, unit tests and TDD (test driven development), XP, anonymous functions (lamdas ~ lexical closures).
+- Learn about ability to modify a program on fly during runtime. 
+- Introduce pure object oriented system Pharo - a modern implementation of reflective and pure OO language based on Smalltalk80. 
+- Learn why image based approach is again popular (ie. Docker technology), what is benefit of shared object memory: joining source code and program runtime.
 
-Benefits for students:
-Learn about debugger-driven development and immediate program feedback.
-Avoid unnecessary code complexity and maximize reusability due to Smalltalk idiomatic way of writing code. 
-Introduce meta-programming in Pharo using metalinks and modify a program by changing AST.
-Learn about examples in SW industry and research (Visualization, IoT, usage in Aerospace, web stack). 
-Learn how Pharo can be integrated with other systems (written in other programming languages) and how to integrate with VCS (i.e. Github) and CI/CD setup including test coverage.
+__Benefits for students:__  
+- Learn about debugger-driven development and immediate program feedback.
+- Avoid unnecessary code complexity and maximize reusability due to Smalltalk idiomatic way of writing code. 
+- Improve SW design skills by using OO narratives and real-life examples (Don't think how SW works, think how real world works).
+- Introduce meta-programming in Pharo using metalinks and modify a program by changing AST.
+- Learn about examples in SW industry and research (Visualization, IoT, usage in Aerospace, web stack). 
+- Learn how Pharo can be integrated with other systems (written in other programming languages) and how to integrate with VCS (i.e. Github) and CI/CD setup including test coverage.
 
 ## Obsah cviceni
 TODO 
