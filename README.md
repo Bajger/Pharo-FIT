@@ -51,7 +51,7 @@ TODO
 
 
 # Reflektivita
-Metalinky, naprosto odvazova vec -> modifikace AST a program runtimu, ktere se daji dynamick nainstalovat (behavioralni reflexe):
+Metalinky, naprosto odvazova vec -> modifikace AST a program runtimu, ktere se daji dynamicky nainstalovat (behavioralni reflexe):
 Slideshare: https://www.slideshare.net/MarcusDenker/lecture-metalinks  
 PDF: http://marcusdenker.de/talks/18LectureMetaLinks/MetaLinks.pdf  
 __Klicove video (alespon pro me)__: https://www.youtube.com/watch?v=WE_DDgBu7wA
