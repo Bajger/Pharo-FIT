@@ -143,10 +143,11 @@ https://hal.inria.fr/hal-01353884/document
 Co se tyka webu, zaznamenal jsem v podsate 3 pristupy: 
 
 ## 1. Minimalni image bezici v prohlizeci (velikost cca 200kB) a interpret Squeak JS
-Zde SqueakJS oznacuje VM v podstate napsany v Javascriptu a interpretuje minimalni Pharo image, ktera slouzi s komunikaci pres web sockety s backend-image:
-Video z prezentace o frameworku: https://vimeo.com/457353130
-https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/5-ExpressiveSystems-Stel-Alteren.pdf
-https://github.com/ErikOnBike/CodeParadise/blob/master/introduction.md
+Ma to na starosti firma ObjectGuild z Belgie, snazi se to za chvili vydat jako betu pro sirsi pouziti (Zalozeno na CodeParadise, coz je v podstate vice experimentalni knihovna vyvinuta jednim z tvurcu). Zde SqueakJS oznacuje VM v podstate napsany v Javascriptu a interpretuje minimalni Pharo image, ktera slouzi s komunikaci pres web sockety s backend-image:
+Video z prezentace o frameworku: https://vimeo.com/457353130  
+https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/5-ExpressiveSystems-Stel-Alteren.pdf  
+https://github.com/ErikOnBike/CodeParadise/blob/master/introduction.md  
+Odkaz na novou verzi frameworku od ObjectGuild: TODO soon
 
 
 ## 2. Seaside framework s Jquery knihovnou
@@ -174,8 +175,8 @@ APart form editor - je editor pro UI, ktery vygeneruje specifikaci - prace Pavla
 https://github.com/bauing-schmidt/APart  
 Slidy: https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day2/4-ApartFormEditor-Krivanek.pdf
 
-Priklad pouziti GTK aplikace a Roassal vizualizace dohromady:
-
+Priklad pouziti headless GTK aplikace a Roassal vizualizace dohromady:
+TODO
 
 # Pharo v IoT a moznosti pro senzory v zarizenich
 Pharo IoT - projekt zabyvajici se problematikou IoT za pouziti Phara. 
@@ -233,6 +234,7 @@ Learn why image based approach is again popular (ie. Docker technology), what is
 
 Benefits for students:
 Learn about debugger-driven development and immediate program feedback.
+Avoid unnecessary code complexity and maximize reusability due to Smalltalk idiomatic way of writing code. 
 Introduce meta-programming in Pharo using metalinks and modify a program by changing AST.
 Learn about examples in SW industry and research (Visualization, IoT, usage in Aerospace, web stack). 
 Learn how Pharo can be integrated with other systems (written in other programming languages) and how to integrate with VCS (i.e. Github) and CI/CD setup including test coverage.
