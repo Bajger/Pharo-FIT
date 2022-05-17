@@ -16,7 +16,7 @@ _Zatim to pisu cesky, je mozne to prepsat radeji do anglictiny (pripadne udealat
 - Mam odskouseny setup CI/CD (beh unit testu na ruznych platformach a verzich Phara, test coverage report) a osvojeno pouziti gitu a Githubu za pomoci Phara (Iceberg nastroje)  
 - Definice tzv. projektovych baseline a reseni zavislosti mezi balicky -> toto je nutne, aby se projekt nahral vcetne vsech zavislosti v jinych repositarich
 - Implementace a zkusenosti command line interface za pouziti CLAP knihovny  
-- Tiny Blog web applikaci, ktera byla soucasti mooc kurzu (viz zdroje), za pouziti Seaside, Bootstrap, Mongo db, Magritte meta-modelu pro validaci formularovych dat  
+- Tiny Blog web applikaci, ktera byla soucasti mooc kurzu (viz zdroje), za pouziti Seaside, Bootstrap, Mongo db, Magritte meta-modelu pro validaci formularovych dat. Je to takova ucelena ukazka Seaside web aplikace: https://books.pharo.org/tinyblog-tutorial/book/TinyBlogEN-gitc55a88d.pdf  
 - Implementoval jsem a vyzkousel Pharo track cviceni (reseni ruznych jednoduchych problemu k osvojeni jazyka, vcetne mini Forth interpreta): https://exercism.org/tracks/pharo-smalltalk  
 - Zkusenosti s implementaci nekterych programtatorskych problemu za pomoci Phara, tyto cviceni jsou jiz vice hardcore: https://adventofcode.com/  
 - Pouzivani HTTP klienta (GET/POST requesty) ze Zinc knihovny (napr. pri dotazovani na Github.com)
@@ -118,15 +118,21 @@ Ukazky 2d her od tymu z Jizni Ameriky (Ba-St): https://github.com/apiorno/Winter
 
 
 # Integrace s version control (zejmena GIT) a moznosti pro CI/CD 
-Topics to include
-Git an CI-CD, project baselines
+Projektove zavislosti, jak to cele funguje: https://github.com/pharo-open-documentation/pharo-wiki/blob/master/General/Baselines.md  
+Git a pouzivani Iceberg (git klient ve Pharu, udrzuje image v syncu s Git repositarem): http://books.pharo.org/booklet-ManageCode/pdf/2020-05-12-ManageCode.pdf  
+
+__CI/CD:__ 
+Lze pomoci Github actions (pekne popsano zde): https://github.com/hpi-swa/smalltalkCI 
+Nebo Jenkins serveru: TODO
 
 # IDE a vyvojove prostredi
-Krome standartniho Phara image se da vyvijet pomoci tzv. Glamorous toolkitu vyvijeno firmou Feenk. Jejich cilem je se spopularizovat a pouzit i v jinych jazicich (filozoficky jakasi nahrada/pokracovani za Emacs - viz [https://www.reddit.com/r/emacs/comments/lbwff7/glamorous_toolkit_a_smalltalk_take_on_some_ideas/)
+Krome standartniho Phara image se da vyvijet pomoci tzv. Glamorous toolkitu vyvijeno firmou Feenk. Jejich cilem je se spopularizovat a pouzit i v jinych jazicich (filozoficky jakasi nahrada/pokracovani za Emacs - viz [tato diskuze](https://www.reddit.com/r/emacs/comments/lbwff7/glamorous_toolkit_a_smalltalk_take_on_some_ideas/)
+Odkaz na Gtoolkit videa: https://www.youtube.com/channel/UClLZHVq_-2D2-iI4rA2O8Ug/featured  
+stranky spolecnosti ktera to vyvinula: https://feenk.com/  
 
 # Pouziti Phara ve virtualizaci Docker
-Docker and swarm of images
-https://thepharo.dev/2021/02/24/running-pharo-9-in-docker/
+Docker and swarm of images - jak to pouzivaji ve 2denker.com: https://www.youtube.com/watch?v=Ncdrk5Bd9fY   
+Pouziti Dockeru a deployment web aplikace: https://thepharo.dev/2021/02/24/running-pharo-9-in-docker/  
 
 # Soubezne zpracovani uloh
 Taskit - parallelism: https://github.com/pharo-contributions/taskit
@@ -138,16 +144,22 @@ Co se tyka webu, zaznamenal jsem v podsate 3 pristupy:
 
 ## 1. Minimalni image bezici v prohlizeci (velikost cca 200kB) a interpret Squeak JS
 Zde SqueakJS oznacuje VM v podstate napsany v Javascriptu a interpretuje minimalni Pharo image, ktera slouzi s komunikaci pres web sockety s backend-image:
-Video z prezentace: TODO
+Video z prezentace o frameworku: https://vimeo.com/457353130
 https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/5-ExpressiveSystems-Stel-Alteren.pdf
 https://github.com/ErikOnBike/CodeParadise/blob/master/introduction.md
 
 
 ## 2. Seaside framework s Jquery knihovnou
-Seaside je komponent based stateful web framework, generuje veskery obsah web stranky (pres tzv. html canvas). Generuje to HMTL+css ze smalltalku kodu. Komunikace je pres Ajax a JQuery.
+Asi nejrozsirenejsi zpusob. Seaside je komponent based stateful web framework, generuje veskery obsah web stranky (pres tzv. html canvas). Generuje to HMTL+css ze smalltalku kodu. Komunikace je pres Ajax a JQuery.
 
-- Bootstap, Semantic UI, willow (BaSt)
-- material design lite: 
+__Bootstap__ - pouziti Saasidu s boostrap frameworkem: https://github.com/astares/Seaside-Bootstrap5  
+
+__Semantic UI a Willow (BaSt)__  
+  Willow je jakasi abstraktni vrstva, kterou nezajima jaky framework se zrovna pouziva (pouziva to firma Mercap, ktera to dala jako opensource). Jejich cilem je usnadnit psani Ajax interakci mezi klientem (prohlizecem) a server casti, ukazka zde: https://www.youtube.com/watch?v=U6-JoPRcXHc  
+repositar zde: https://github.com/ba-st/Willow  
+
+- Material design lite se Seasidem: https://github.com/DuneSt/MaterialDesignLite  
+
 
 ## PharoJS  - transpilator z Phara do JS
 Kladou si za cil vubec JS nepouzivat, pouze do nej exportovat jak pro klientskou stranu tak pro server: prednaska zde: https://youtu.be/2d2otdj66dw  
