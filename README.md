@@ -168,15 +168,13 @@ Slidy zde: https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharod
 Hlavni stranka: https://pharojs.org
 
 # Nativni UI aplikace
-UI pomoci GTK knihovny, bezi na headless image:
-Velmi konkretni ukazka: https://rmod-files.lille.inria.fr/Videos/fosdem/gtk-spec-live.mp4  
+UI pomoci GTK knihovny, bezi na headless image.
+__Priklad pouziti headless GTK aplikace a Roassal vizualizace dohromady, pouziva [Cairo backend](https://en.wikipedia.org/wiki/Cairo_(graphics))__: https://rmod-files.lille.inria.fr/Videos/fosdem/gtk-spec-live.mp4  
 
 APart form editor - je editor pro UI, ktery vygeneruje specifikaci - prace Pavla Krivanka, ktery to vyvyji pro nemeckou firmu:
 https://github.com/bauing-schmidt/APart  
 Slidy: https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day2/4-ApartFormEditor-Krivanek.pdf
 
-Priklad pouziti headless GTK aplikace a Roassal vizualizace dohromady:
-TODO
 
 # Pharo v IoT a moznosti pro senzory v zarizenich
 Pharo IoT - projekt zabyvajici se problematikou IoT za pouziti Phara. 
