@@ -95,6 +95,8 @@ Zatim ne plne funkcni experiment Pavla Krivanka. Tohle by byla asi diplomka jako
 http://forum.world.st/Pharo-on-Emscripten-WebAssembly-td5127577.html  
 https://github.com/pavel-krivanek/EmPharo  
 Zajimava rozprava o tematu: http://forum.world.st/tracking-WebAssembly-td5096794.html  
+Rozprava o GC ve WASM: https://www.oreilly.com/library/view/what-is-webassembly/9781492076902/ch04.html  
+Soucasny navrh GC: https://github.com/WebAssembly/gc/blob/master/proposals/gc/Overview.md  
 
 
 # Vyuziti v modelovani a simulaci
