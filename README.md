@@ -90,6 +90,10 @@ Volani pres foreign function interface. Zde doslo k vyraznemu zlepseni od core P
 - detaily zde: https://hal.inria.fr/hal-03358607/document     
 - kniha: http://books.pharo.org/booklet-uffi/  
 
+__Pharo VM a WebAssembly__  
+Tohle by byla asi diplomka jako vino pro opravdove odvazlivce (Pavlovo dilo): http://forum.world.st/Pharo-on-Emscripten-WebAssembly-td5127577.html  
+
+
 # Vyuziti v modelovani a simulaci
 Open ponk modelling paper:
 http://esug.org/data/ESUG2016/IWST/Papers/IWST_2016_paper_25.pdf  
