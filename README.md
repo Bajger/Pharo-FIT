@@ -85,13 +85,16 @@ Repositar zde: https://github.com/ObjectProfile/PythonBridge
 Nebo take (vice informaci): https://objectprofile.github.io/PythonBridge/  
   
 
-__UFFI__  
+## UFFI Unified foreign function interface (zejmena do C)
 Volani pres foreign function interface. Zde doslo k vyraznemu zlepseni od core Pharo vyvojaru (threaded FFI):  
 - detaily zde: https://hal.inria.fr/hal-03358607/document     
 - kniha: http://books.pharo.org/booklet-uffi/  
 
-__Pharo VM a WebAssembly__  
-Tohle by byla asi diplomka jako vino pro opravdove odvazlivce (Pavlovo dilo): http://forum.world.st/Pharo-on-Emscripten-WebAssembly-td5127577.html  
+## Pharo VM a WebAssembly  
+Zatim ne plne funkcni experiment Pavla Krivanka. Tohle by byla asi diplomka jako vino pro opravdove odvazlivce: 
+http://forum.world.st/Pharo-on-Emscripten-WebAssembly-td5127577.html  
+https://github.com/pavel-krivanek/EmPharo  
+Zajimava rozprava o tematu: http://forum.world.st/tracking-WebAssembly-td5096794.html  
 
 
 # Vyuziti v modelovani a simulaci
