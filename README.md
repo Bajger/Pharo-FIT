@@ -64,8 +64,10 @@ http://marcusdenker.de/talks/21VariablesPharo/Variables.pdf
 Observable slots (used in Spec UI). Tohle je "porozovaci slot" ktery dokaze informovat / poslat udalost pri zmene stavu. Pouzito v UI Spec frameworku v MVP/MVC: 
 https://medium.com/concerning-pharo/watch-your-instance-variables-bce05250768e
 
+Hratky s typy
 Typed slots - to je ta vtipna vec, ze Pharo lze v podstate udelat jako typovany jazyk:
-https://medium.com/@juliendelplanque/typed-slots-for-pharo-98ba5d5aafbe
+https://medium.com/@juliendelplanque/typed-slots-for-pharo-98ba5d5aafbe  
+Odvozovani typu z kodu, ktery jiz byl spusten: https://vimeo.com/593228400  
 
 Jak vytvorit anonymni tridu pro spehovani (slide 16): http://rmod-pharo-mooc.lille.inria.fr/MOOC/PharoMOOC/Week7/C019-W7S04-OtherReflective.pdf
 
