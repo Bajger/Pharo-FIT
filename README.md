@@ -198,10 +198,15 @@ Update PharoThings (zaklad pro PharoIoT), ktery je nutno vyzkouset je zde: https
 - melo by umet PiGPIO, Picod and Firmata. Take to umi FFI-based SerialPort driver. Nutne vyzkouset.
 
 # Komunikace a sitovy prenos
-AMQP klient pro Pharo https://github.com/ba-st/Ansible (AMQP broker je patrne robustnejsi/pomalejsi nez Kafka)
+## AMQP klient pro Pharo 
+https://github.com/ba-st/Ansible (AMQP broker je patrne robustnejsi/pomalejsi nez Kafka)
 Zinc HTTP server a klient: https://github.com/svenvc/zinc
 tbd.  
-MQTT pouziti: https://vimeo.com/715009486  
+
+## MQTT pouziti
+https://vimeo.com/715009486  
+https://www.youtube.com/watch?v=ffE4trXLqfM
+
 
 # Umela inteligence a Machine learning
 Toto prilis nemam prozkoumano, nicmene stav podpurnych knihoven by mel byt v dobrem stavu, komunita se snazi o komplement (napr. Polymath, Dataframe) k Python knihovnam. Rekl bych, ze je tu rada prilezitosti napsat nejaky chybejici algoritmus, bud jako bakalarskou nebo dimpl. praci:
