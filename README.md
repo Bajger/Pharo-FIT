@@ -108,6 +108,12 @@ https://openponk.org/
 Zdarila ukazka modelovaci platformy OpenPonk: https://www.youtube.com/watch?v=_gQgXdJyr-0  
 Petriho site: https://github.com/OpenPonk/petrinets  
 
+# Graficke frameworky
+Pharo v posledni verzi (P11) doplnilo graficky low-level framework zvany Bloc. Ten muze pouzivat 3 moznosti host low-level knihoven:
+Sparta-Cairo, Sparta-Skia, Alexandrie.   
+https://rmod-files.lille.inria.fr/Videos/2022-ESUG/Day2/2f-esug-v3.mp4  
+https://github.com/pharo-graphics/bloc  
+
 # Vizualizace dat
 Visualizace pomoci Roassal knihovny, je zde spousta prikladu a vizualizace jsou nekdy uchvacujici a prakticke pri nejake analyze dat. Je to takova obdoba d3js, ale s tou vyhodou, ze data (model) ktery vizualizujete mate primo live v imagi a muzete menit semantiku pro zobrazeni on-the-fly:
 http://agilevisualization.com/  
