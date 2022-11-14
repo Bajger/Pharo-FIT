@@ -48,7 +48,8 @@ Jakym zpusobem podavat do budoucna enhancementy __(treba kdyby neco potrebovala 
 # Osobnosti a jejich tvorba
 TODO
 
-
+# Konference, publikacni cinnost
+- ESUG (European Smalltalk user group): rocnik 2022 zde (videa): https://rmod-files.lille.inria.fr/Videos/2022-ESUG/ 
 
 # Reflektivita
 Metalinky, naprosto odvazova vec -> modifikace AST a program runtimu, ktere se daji dynamicky nainstalovat (behavioralni reflexe):
