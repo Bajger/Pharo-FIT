@@ -49,7 +49,15 @@ Jakym zpusobem podavat do budoucna enhancementy __(treba kdyby neco potrebovala 
 TODO
 
 # Konference, publikacni cinnost
-- ESUG (European Smalltalk user group): rocnik 2022 zde (videa): https://rmod-files.lille.inria.fr/Videos/2022-ESUG/ 
+ESUG (European Smalltalk user group): rocnik 2022 zde (videa): https://rmod-files.lille.inria.fr/Videos/2022-ESUG/  
+den 1:
+- 1a - intro
+- 1b - PharoJS - stav projektu - Generovani JS (transpilace) z Phara, pouziti pro mobilni aplikace (napr. Cordova)
+- 1c - XP - generovani test casu zakaznikem na sdilene platforme
+- 1d - Pharo VM - automaticke generovani kodu pro interpreter a compiler (porovnavani vysledku), RISC V podpora, pouziti SIMD pro optimalizaci/zrychleni bytecodu a primitiv, nastroje pro debugovani strojoveho jazyka, visualizace IR kodu (intermediate representation)
+- 1e - Microdown - rozsireni MD (markdown) pro dokumentovani Phara
+
+
 
 # Reflektivita
 Metalinky, naprosto odvazova vec -> modifikace AST a program runtimu, ktere se daji dynamicky nainstalovat (behavioralni reflexe):
