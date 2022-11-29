@@ -56,6 +56,8 @@ den 1:
 - 1c - XP - generovani test casu zakaznikem na sdilene platforme
 - 1d - Pharo VM - automaticke generovani kodu pro interpreter a compiler (porovnavani vysledku), RISC V podpora, pouziti SIMD pro optimalizaci/zrychleni bytecodu a primitiv, nastroje pro debugovani strojoveho jazyka, visualizace IR kodu (intermediate representation)
 - 1e - Microdown - rozsireni MD (markdown) pro dokumentovani Phara
+- 1f - Microdown tools, editors in Pharo
+- 1g - Pharo AI - shallow knihovna pro AI, srovnani/benchmarking s algoritmy v Pythonu(scikit-learn), Fortranu (LAPAK)
 
 
 
