@@ -181,6 +181,7 @@ Odkaz na novou verzi frameworku od ObjectGuild: TODO soon
 ## 2. Seaside framework s Jquery knihovnou
 Asi nejrozsirenejsi zpusob. Seaside je komponent based stateful web framework, generuje veskery obsah web stranky (pres tzv. html canvas). Generuje to HMTL+css ze smalltalku kodu. Komunikace je pres Ajax a JQuery.
 
+__Seaside tips__ pouziti Seaside frameworku a par tipu pro uziti: http://onsmalltalk.com/terse-guide-to-seaside  
 __Bootstap__ - pouziti Saasidu s boostrap frameworkem: https://github.com/astares/Seaside-Bootstrap5  
 
 __Semantic UI a Willow (BaSt)__  
