@@ -61,7 +61,7 @@ den 1:
 
 __Smalltalks 2022 (Buenos Aires)__
 - spolecnost Mercap a jeji microservice architektura primarne na Pharu, SW na spravu fin. portfolia ~ cca 20k registrovanych uzivatelu: https://www.youtube.com/watch?v=s8Sp-xRgxOQ  
-
+- Novinky ve Pharo 9,10 a plany do budoucna: spec2 framework, refactoring tools, HDPI support, Nativni okna,etc.: https://www.youtube.com/watch?v=bXnpO-8DSVA  
 
 # Reflektivita
 Metalinky, naprosto odvazova vec -> modifikace AST a program runtimu, ktere se daji dynamicky nainstalovat (behavioralni reflexe):
