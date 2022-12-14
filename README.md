@@ -49,7 +49,7 @@ Jakym zpusobem podavat do budoucna enhancementy __(treba kdyby neco potrebovala 
 TODO
 
 # Konference, publikacni cinnost
-ESUG (European Smalltalk user group): rocnik 2022 zde (videa): https://rmod-files.lille.inria.fr/Videos/2022-ESUG/  
+__ESUG (European Smalltalk user group)__: rocnik 2022 zde (videa): https://rmod-files.lille.inria.fr/Videos/2022-ESUG/  
 den 1:
 - 1a - intro
 - 1b - PharoJS - stav projektu - Generovani JS (transpilace) z Phara, pouziti pro mobilni aplikace (napr. Cordova)
@@ -59,6 +59,8 @@ den 1:
 - 1f - Microdown tools, editors in Pharo
 - 1g - Pharo AI - shallow knihovna pro AI, srovnani/benchmarking s algoritmy v Pythonu(scikit-learn), Fortranu (LAPAK)
 
+__Smalltalks 2022 (Buenos Aires)__
+- spolecnost Mercap a jeji microservice architektura primarne na Pharu, SW na spravu fin. portfolia ~ cca 20k registrovanych uzivatelu: https://www.youtube.com/watch?v=s8Sp-xRgxOQ  
 
 
 # Reflektivita
