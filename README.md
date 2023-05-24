@@ -206,6 +206,7 @@ APart form editor - je editor pro UI, ktery vygeneruje specifikaci - prace Pavla
 https://github.com/bauing-schmidt/APart  
 Slidy: https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day2/4-ApartFormEditor-Krivanek.pdf
 
+Ikony ve Pharu a pouziti v UI: https://github.com/OpenSmock/Iconography 
 
 # Pharo v IoT a moznosti pro senzory v zarizenich
 Pharo IoT - projekt zabyvajici se problematikou IoT za pouziti Phara. 
