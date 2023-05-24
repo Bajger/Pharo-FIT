@@ -230,10 +230,10 @@ https://www.youtube.com/watch?v=ffE4trXLqfM
 
 # Umela inteligence a Machine learning
 Toto prilis nemam prozkoumano, nicmene stav podpurnych knihoven by mel byt v dobrem stavu, komunita se snazi o komplement (napr. Polymath, Dataframe) k Python knihovnam. Rekl bych, ze je tu rada prilezitosti napsat nejaky chybejici algoritmus, bud jako bakalarskou nebo dimpl. praci:
-https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/8-PharoAI-Jordan-Zaitsev.pdf
-https://github.com/pharo-ai/wiki
-https://github.com/pharo-ai/awesome-pharo-ml
-
+https://rmod-files.lille.inria.fr/Team/PharoPresentations/2022-Pharodays/Day1/8-PharoAI-Jordan-Zaitsev.pdf  
+https://github.com/pharo-ai/wiki  
+https://github.com/pharo-ai/awesome-pharo-ml  
+Chatbot OpenAI ve Pharu: https://github.com/brackendev/OpenAI-Pharo 
 
 # Dulezite zdroje
 Massive online course - vec podle ktere jsem si Pharo ozivil a pochopil par veci navic, velmi pekne udelano a jsou tam prakticke cviceni:  
